@@ -8,12 +8,55 @@
         Welligton
     </div>
     <div class="temperature">
-        {{14.40 | number: '1.0-0'}}&deg;
+        {{14.40 | number: '1.0-0'}}&deg;C
     </div>
 </div>
 </div>
+<h6  style="color: aliceblue;margin-left: 10px;">More Information</h6>
 <div class="lower-data">
-
+ <div class="more-info-label">
+    <div class="info-row">
+        <div class="info-block">
+            <div class="info-block-label">
+                <img src="../assets/img/coldMeter.png" alt="">
+                <span>min</span>
+            </div>
+            <div class="info-block-value">
+                10&deg;C
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="info-block-label">
+                <img src="../assets/img/hotMeter.png" alt="" style="width: 3em">
+                <span>max</span>
+            </div>
+            <div class="info-block-value">
+                20&deg;C
+            </div>
+        </div>
+    </div>
+    <div class="info-row">
+        <div class="info-block">
+            <div class="info-block-label">
+                <img src="../assets/img/humidity.png" alt="" style="width: 2.5em">
+                <span style="margin-left: 30%">humidty</span>
+            </div>
+            <div class="info-block-value">
+                77%
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="info-block-label">
+                <img src="../assets/img/wind.png" alt="" style="width: 3em">
+                <span>wind</span>
+            </div>
+            <div class="info-block-value">
+                11 kpmh
+            </div>
+        </div>
+    </div>
+    
+ </div>
 </div>
 </div>
 <router-outlet></router-outlet> 
