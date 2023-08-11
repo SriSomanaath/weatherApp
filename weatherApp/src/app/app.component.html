@@ -1,8 +1,16 @@
 
 <div class="container">
 <div class="upper-data">
-<!-- <img src="../assets/img/hotClimate.gif" alt="" *ngIf="14>15">
-<img src="../assets/img/coldClimate.gif" alt=""  *ngIf="14 <= 15"> -->
+<img src="../assets/img/hotClimate.gif" alt="" *ngIf="14>15" style="height:170px;">
+<img src="../assets/img/coldClimate.gif" alt=""  *ngIf="14 <= 15"  style="height:170px;">
+<div class="weather-data">
+    <div class="location">
+        Welligton
+    </div>
+    <div class="temperature">
+        {{14.40 | number: '1.0-0'}}
+    </div>
+</div>
 </div>
 <div class="lower-data">
 
